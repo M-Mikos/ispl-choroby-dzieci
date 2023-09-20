@@ -29,7 +29,7 @@ The project uses [node](https://nodejs.org/en/) and [npm](https://www.npmjs.com/
 Clone repository
 
 ```
-$ git clone https://github.com/M-Mikos/pediatrician-onepager.git
+$ git clone https://github.com/M-Mikos/ispl-choroby-dzieci.git
 ```
 
 Install dependencies
