@@ -1,0 +1,55 @@
+{
+  "ad": "",
+  "analytics": {
+    "desc": "Statystyczne pliki cookie pomagają właścicielom nam zrozumieć, w jaki sposób różni użytkownicy zachowują się na stronie. Te technologie zbierają i zgłaszają anonimowe dane statystyczne",
+    "id": "analytics-cookies",
+    "title": "Statystyczne",
+    "necessary": false,
+    "providers": [
+      {
+        "name": "Google",
+        "desc": "",
+        "details_link": "https://policies.google.com/privacy",
+        "third_countries": "Usługa ta może przekazać zebrane dane do innego kraju. Należy pamiętać, że ta usługa może przesłać dane do kraju, w którym nie obowiązują wymagane standardy ochrony danych. Jeżeli dane zostaną przesłane do USA, istnieje ryzyko, że Twoje dane mogą być przetwarzane przez władze USA w celach kontroli i nadzoru, ewentualnie bez środków prawnych. Aby uzyskać więcej informacji na temat zabezpieczeń, zapoznaj się z polityką prywatności dostawcy usługi lub skontaktuj się bezpośrednio z dostawcą usługi.",
+        "cookies": [
+          {
+            "name": "_ga",
+            "desc": "Rejestruje unikalny identyfikator, który służy do generowania danych statystycznych o tym, w jaki sposób osoba odwiedzająca korzysta z witryny.",
+            "type": "cookie",
+            "duration": "2 lata"
+          },
+          {
+            "name": "_ga_#",
+            "desc": "Wykorzystywane przez Google Analytics do zbierania danych o liczbie odwiedzin użytkownika na stronie internetowej oraz dacie pierwszej i ostatniej wizyty.",
+            "type": "cookie",
+            "duration": "2 lata"
+          }
+        ]
+      }
+    ]
+  },
+  "personalization": "",
+  "functionality": {
+    "desc": "Te technologie są niezbędne do uruchomienia kluczowych funkcjonalności strony.",
+    "id": "essential-cookies",
+    "title": "Niezbędne",
+    "necessary": true,
+    "providers": [
+      {
+        "name": "lekarz-grodzisk.pl",
+        "desc": "Ta usługa jest wykorzystywana do zapamiętywania Twoich preferencji dotyczących plików cookies.",
+        "details_link": "",
+        "third_countries": "",
+        "cookies": [
+          {
+            "name": "cookie_consent",
+            "desc": "Ten plik zawiera informacje o tym, na wykorzystanie jakich plików cookies została udzielona zgoda.",
+            "type": "cookie",
+            "duration": "6 miesięcy"
+          }
+        ]
+      }
+    ]
+  },
+  "security": ""
+}
