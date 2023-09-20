@@ -100,9 +100,10 @@ More information about modules is included in the documentation inside the modul
 
 ## Performance
 
-![Google page speed insights destop performance score.](assets/screens/performance-stats-desktop.png)
+| Desktop performance                                                                                   | Mobile performance                                                                                   |
+| ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| ![Google page speed insights destop performance score.](assets/screens/performance-stats-desktop.png) | ![Google page speed insights mobile performance score.](assets/screens/performance-stats-mobile.png) |
 
-![Google page speed insights mobile performance score.](assets/screens/performance-stats-mobile.png)
 _Results may be diffrent on your device._
 
 The goal was to achieve highest possible [Google Page Speed](https://pagespeed.web.dev/) on mobile and desktop devices. Selected solutions:
