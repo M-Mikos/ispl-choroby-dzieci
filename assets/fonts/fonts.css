@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Bold.eot');
+    src: url('CormorantGaramond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-Bold.woff2') format('woff2'),
+        url('CormorantGaramond-Bold.woff') format('woff'),
+        url('CormorantGaramond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant Garamond';
+    src: url('CormorantGaramond-Regular.eot');
+    src: url('CormorantGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CormorantGaramond-Regular.woff2') format('woff2'),
+        url('CormorantGaramond-Regular.woff') format('woff'),
+        url('CormorantGaramond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-SemiBold.eot');
+    src: url('Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Inter-SemiBold.woff2') format('woff2'),
+        url('Inter-SemiBold.woff') format('woff'),
+        url('Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Bold.eot');
+    src: url('Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Inter-Bold.woff2') format('woff2'),
+        url('Inter-Bold.woff') format('woff'),
+        url('Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.eot');
+    src: url('Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Inter-Regular.woff2') format('woff2'),
+        url('Inter-Regular.woff') format('woff'),
+        url('Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

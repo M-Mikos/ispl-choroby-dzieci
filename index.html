@@ -1,0 +1,2155 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      ISPL Choroby dzieci | Medycyna rodzinna i pediatria - lek. med. Agnieszka
+      Wodzyńska
+    </title>
+
+    <meta
+      name="description"
+      content="Prywatna praktyka lekarska z zakresu pediatrii oraz medycyny rodzinnej. Konsultacje telefoniczne oraz wizyty w gabinecie w Grodzisku Maozwieckim"
+    />
+    <meta
+      name="thumbnail"
+      content="/assets/screens/ispl-website-screen-1200x630.jpg"
+    />
+
+    <meta
+      property="og:title"
+      content="ISPL Choroby dzieci | Medycyna rodzinna i pediatria - lek. med. Agnieszka
+      Wodzyńska"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="/assets/screens/ispl-website-screen-1200x630.jpg"
+    />
+    <meta property="og:url" content="https://www.lekarz-grodzisk.pl" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="lekarz-grodzisk.pl" />
+    <meta property="twitter:url" content="https://www.lekarz-grodzisk.pl" />
+    <meta
+      name="twitter:title"
+      content="ISPL Choroby dzieci | Medycyna rodzinna i pediatria - lek. med. Agnieszka      Wodzyńska"
+    />
+    <meta
+      name="twitter:description"
+      content="Prywatna praktyka lekarska z zakresu pediatrii oraz medycyny rodzinnej. Konsultacje telefoniczne oraz wizyty w gabinecie w Grodzisku Maozwieckim"
+    />
+    <meta
+      name="twitter:image"
+      content="/assets/screens/ispl-website-screen-1200x630.jpg"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/favicon/safari-pinned-tab.svg"
+      color="#0e72d1"
+    />
+    <meta name="msapplication-TileColor" content="#0e72d1" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/img/misio-lekarz.svg"
+      type="image/webp"
+    />
+    <!-- Critical CSS -->
+    <style>
+      @import url(assets/fonts/fonts.css);
+      @import url(assets/icons/fonts.css);
+      *,
+      :focus {
+        outline: 0;
+      }
+      .content,
+      .section {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+      }
+      .overlay {
+        overflow: hidden;
+      }
+      .hero__heading,
+      .hero__text {
+        text-align: center;
+      }
+      .doc ol,
+      .doc ul {
+        margin-left: 4rem;
+      }
+      :root {
+        --color-primary: #0e72d1;
+        --color-primary-light-1: #569cdf;
+        --color-primary-light-2: #deecf9;
+        --color-primary-dark: #0a5092;
+        --color-secondary: #f7a258;
+        --color-tertiary: #c6e1b9;
+        --color-neutral-dark-1: #131c24;
+        --color-neutral-dark-2: #23384b;
+        --sm-content-width: 100%;
+        --md-content-width: 100%;
+        --lg-content-width: 1000px;
+        --xl-content-width: 1200px;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border: none;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      html {
+        font-size: 62.5%;
+      }
+      ul {
+        list-style: none;
+      }
+      .section {
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 60vh;
+        margin-bottom: 5rem;
+      }
+      .container {
+        width: var(--sm-content-width);
+        height: 100%;
+        padding: 0 1rem;
+      }
+      .button,
+      .content {
+        width: 100%;
+      }
+      .content {
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 4rem;
+      }
+      .column {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      .column--specialization,
+      .hero__buttons,
+      .menu__links {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+      }
+      .card {
+        background-repeat: no-repeat;
+        background-position: 70% 70%;
+        background-color: #fff;
+        border-radius: 8px;
+        -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
+          0 4px 4px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 4;
+        padding: 2rem;
+      }
+      .button {
+        background-color: var(--color-primary);
+      }
+      .heading {
+        position: relative;
+        font-family: "Cormorant Garamond", serif;
+        font-weight: 700;
+        color: var(--color-neutral-dark-2);
+        margin-bottom: 4rem;
+      }
+      .header,
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
+      .text {
+        margin-bottom: 1.6rem;
+      }
+      .heading--2 {
+        font-size: 3.6rem;
+      }
+      .heading--2::before {
+        content: "";
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        display: block;
+        width: 3.6rem;
+        height: 0.4rem;
+        background-color: var(--color-secondary);
+        border-radius: 0.2rem;
+      }
+      .text {
+        font-size: 1.8rem;
+        line-height: 150%;
+      }
+      .button {
+        height: 48px;
+        padding: 0 2.4rem;
+        color: #fff;
+        font-family: inherit;
+        font-size: 1.5rem;
+        font-weight: 600;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2),
+          0 4px 6px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2),
+          0 4px 6px 0 rgba(0, 0, 0, 0.1);
+      }
+      .icon {
+        width: 6.4rem;
+        height: 6.4rem;
+        font-size: 6.4rem;
+      }
+      .overlay {
+        width: 100vw;
+        height: 100vh;
+        background-color: #000000c0;
+        -webkit-backdrop-filter: blur(4px);
+        backdrop-filter: blur(4px);
+        -webkit-animation: 1s overlay-fade-in;
+        animation: 1s overlay-fade-in;
+        z-index: 30;
+      }
+      .body,
+      .header {
+        background-color: #fff;
+      }
+      .hidden {
+        display: none;
+      }
+      .container--header,
+      .header__top-bar {
+        display: -webkit-box;
+        display: -ms-flexbox;
+      }
+      .body {
+        font-family: Inter, sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.35;
+        color: var(--color-neutral-dark-1);
+        margin-top: 60px;
+      }
+      .header {
+        width: 100%;
+        -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
+          0 4px 4px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1),
+          0 4px 4px 0 rgba(0, 0, 0, 0.05);
+        z-index: 20;
+      }
+      .container--header {
+        display: flex;
+        gap: 2rem;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin: auto;
+      }
+      .header__top-bar {
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 100%;
+        padding: 0.5rem 0;
+        font-size: 1.4rem;
+        font-weight: 700;
+        background-color: var(--color-primary);
+        color: #fff;
+      }
+      .logo,
+      .menu__links {
+        display: -webkit-box;
+        display: -ms-flexbox;
+      }
+      .doc h3 {
+        font-size: 2.4rem;
+      }
+      .button--opening-hours {
+        color: var(--color-neutral-dark-2);
+      }
+      .menu__call {
+        color: var(--color-primary);
+      }
+      .header__logo {
+        margin: 1rem 0;
+      }
+      .hero__text,
+      .specializations__icon {
+        margin-bottom: 4rem;
+      }
+      .header__menu-trigger {
+        width: 2.4rem;
+        height: 2.4rem;
+        font-size: 2.4rem;
+      }
+      .logo {
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 1rem;
+        height: 100%;
+      }
+      .logo__img {
+        width: 4rem;
+        height: 4rem;
+      }
+      .menu {
+        width: 100%;
+      }
+      .logo__text {
+        font-size: 1.7rem;
+        font-weight: 400;
+        line-height: 100%;
+      }
+      .logo__text--strong {
+        font-weight: 700;
+      }
+      .header__menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+      }
+      .menu {
+        overflow: auto;
+        max-height: 75vh;
+        background-color: #fff;
+        border-top: 1px solid #deecf9;
+        border-bottom: 1px solid #deecf9;
+      }
+      .menu__call::before,
+      .menu__indicator {
+        background-color: var(--color-primary);
+      }
+      .header__menu--mobile-hidden {
+        -webkit-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        transform: translateX(100%);
+      }
+      .overlay--menu {
+        z-index: 15;
+      }
+      .menu__links {
+        position: relative;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 100%;
+        padding: 2rem 1rem;
+      }
+      .menu__item {
+        padding: 1.3rem;
+        font-weight: 600;
+        font-size: 1.5rem;
+        border-bottom: 1px solid var(--color-primary-light-2);
+      }
+      .menu__item:last-child {
+        border-bottom: none;
+      }
+      .menu__call {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        gap: 1rem;
+        font-weight: 600;
+      }
+      .menu__call::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 3px;
+        bottom: -4px;
+      }
+      .menu__indicator {
+        display: none;
+        position: absolute;
+        bottom: -10px;
+        left: 24px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+      }
+      .button--opening-hours,
+      .hero__buttons {
+        display: -webkit-box;
+        display: -ms-flexbox;
+      }
+      .hero__img {
+        width: 100%;
+      }
+      .button--opening-hours,
+      .button--opening-hours::before,
+      .hero__heading::before {
+        background-color: var(--color-primary-light-2);
+      }
+      .hero {
+        padding: 0;
+      }
+      .hero__img {
+        height: 100%;
+        aspect-ratio: 16/9;
+      }
+      .hero__heading {
+        font-size: 3rem;
+      }
+      .hero__heading--prefix {
+        font-weight: 400;
+        font-size: 3rem;
+      }
+      .hero__heading::before {
+        content: "";
+        position: absolute;
+        bottom: -1.8rem;
+        left: -2rem;
+        display: block;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 6.5rem;
+        z-index: -1;
+      }
+      .hero__buttons {
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+      }
+      .button--cta {
+        border-radius: 5rem;
+      }
+      .button--opening-hours {
+        position: relative;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        gap: 0;
+        padding: 0;
+        border-radius: 5rem;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+      .button--opening-hours::before {
+        position: absolute;
+        content: "";
+        display: none;
+        width: 48px;
+        height: 48px;
+        border-radius: 25px;
+        z-index: -1;
+      }
+      .button__icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 48px;
+        height: 48px;
+        font-size: 24px;
+      }
+      .specializations {
+        background: url("assets/img/background-photo.webp") 0 0 / cover;
+        padding: 8rem 0;
+      }
+      .column--specialization {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: start;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+      }
+      .modal__close--lightbox {
+        color: #fff;
+      }
+      .modal__close,
+      .modal__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+      }
+      .doc {
+        overflow-y: scroll;
+      }
+      .doc h3 {
+        margin-bottom: 2rem;
+      }
+      .doc h4 {
+        margin-bottom: 1rem;
+      }
+      .doc ol li:last-child,
+      .doc p,
+      .doc ul li:last-child {
+        margin-bottom: 2rem;
+      }
+      .doc ul {
+        list-style-type: circle;
+      }
+      .doc ol {
+        list-style-type: decimal;
+      }
+      .modal {
+        padding: 2rem;
+      }
+      .modal__content {
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: 100%;
+        max-width: 768px;
+        margin: 1rem auto;
+      }
+      .modal__close {
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+        margin-bottom: 2rem;
+        font-size: 24px;
+        width: 100%;
+      }
+      .lightbox__root {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+        flex: 0 1 100%;
+      }
+      .cookie-consent__root {
+        display: -webkit-box;
+        display: -ms-flexbox;
+      }
+      .cookie-consent__root {
+        height: 100%;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+      }
+      @media (min-width: 768px) {
+        .card {
+          padding: 3rem;
+        }
+        .content,
+        .hero__buttons {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+        }
+        .hero__heading,
+        .hero__text {
+          text-align: start;
+        }
+        .button--opening-hours {
+          background-color: transparent;
+        }
+        .container {
+          width: var(--md-content-width);
+        }
+        .content--hero {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: reverse;
+          -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+        }
+        .hero__heading {
+          font-size: 4.2rem;
+        }
+        .hero__heading::before {
+          bottom: -1rem;
+          left: -2rem;
+          width: 9rem;
+          height: 9rem;
+        }
+        .hero__heading--prefix {
+          font-size: 3.6rem;
+        }
+        .hero__img {
+          aspect-ratio: 1/1;
+        }
+        .button--opening-hours {
+          gap: 1rem;
+          -webkit-box-pack: start;
+          -ms-flex-pack: start;
+          justify-content: start;
+        }
+        .button--opening-hours::before {
+          display: block;
+        }
+      }
+      @media (min-width: 1024px) {
+        .menu,
+        .menu__item {
+          border: none;
+        }
+        .menu__links {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+        }
+        .section {
+          margin-bottom: 10rem;
+        }
+        .container {
+          width: var(--lg-content-width);
+        }
+        .heading--2 {
+          font-size: 4.2rem;
+        }
+        .container--header {
+          -webkit-box-align: stretch;
+          -ms-flex-align: stretch;
+          align-items: stretch;
+        }
+        .header__menu-trigger {
+          display: none;
+        }
+        .header__menu {
+          position: relative;
+        }
+        .menu {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          width: auto;
+          overflow: hidden;
+        }
+        .header__menu--mobile-hidden {
+          -webkit-transform: translateX(0);
+          -ms-transform: translateX(0);
+          transform: translateX(0);
+        }
+        .menu__links {
+          -ms-flex-direction: row;
+          flex-direction: row;
+          padding: 0;
+        }
+        .menu__indicator {
+          display: block;
+        }
+        .hero__heading {
+          font-size: 4.8rem;
+        }
+        .hero__heading::before {
+          bottom: -1rem;
+          left: -2rem;
+          width: 11rem;
+          height: 11rem;
+        }
+        .hero__heading--prefix {
+          font-size: 4rem;
+        }
+      }
+      @media (min-width: 1280px) {
+        .container {
+          width: var(--xl-content-width);
+        }
+      }
+      @-webkit-keyframes overlay-fade-in {
+        0% {
+          opacity: 0;
+          -webkit-backdrop-filter: blur(0);
+          backdrop-filter: blur(0);
+        }
+        30% {
+          opacity: 1;
+          -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+        }
+      }
+      @keyframes overlay-fade-in {
+        0% {
+          opacity: 0;
+          -webkit-backdrop-filter: blur(0);
+          backdrop-filter: blur(0);
+        }
+        30% {
+          opacity: 1;
+          -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+        }
+      }
+    </style>
+    <script
+      defer
+      src="https://www.googletagmanager.com/gtag/js?id=G-GQ8360WZT2"
+    ></script>
+    <script src="features/windowDataLayer.js"></script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-NKSLLM2L");
+    </script>
+    <!-- End Google Tag Manager -->
+    <script type="module" src="features/controller.js"></script>
+  </head>
+  <body class="body">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-NKSLLM2L"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="header">
+      <noscript
+        ><div class="header__top-bar">
+          Aby poprawnie funkcjonować, ta strona wymaga włączonej obsługi
+          JavaScript
+        </div></noscript
+      >
+      <div class="container container--header">
+        <div
+          class="header__logo logo"
+          tabindex="0"
+          data-scroll-target-id="hero"
+        >
+          <img
+            class="logo__img"
+            src="assets/img/logo-ispl-choroby-dzieci-agnieszka-wodzynska.webp"
+            alt="Logo ISPL Choroby Dzieci"
+          />
+          <strong class="logo__text"
+            >ISPL <span class="logo__text--strong">Choroby Dzieci</span></strong
+          >
+        </div>
+        <div class="header__menu-trigger js-menu-trigger">
+          <span class="icon-menu"></span>
+        </div>
+        <nav class="header__menu menu header__menu--mobile-hidden">
+          <ul class="menu__links">
+            <li
+              class="menu__item js-nav-link"
+              tabindex="0"
+              data-scroll-target-id="hero"
+            >
+              Start
+            </li>
+            <li
+              class="menu__item js-nav-link"
+              tabindex="0"
+              data-scroll-target-id="specializations"
+            >
+              Specjalizacje
+            </li>
+            <li
+              class="menu__item js-nav-link"
+              tabindex="0"
+              data-scroll-target-id="about"
+            >
+              O mnie
+            </li>
+            <li
+              class="menu__item js-nav-link"
+              tabindex="0"
+              data-scroll-target-id="office"
+            >
+              Gabinet
+            </li>
+            <li
+              class="menu__item js-nav-link"
+              tabindex="0"
+              data-scroll-target-id="gallery"
+            >
+              Galeria
+            </li>
+            <li
+              class="menu__item js-nav-link"
+              tabindex="0"
+              data-scroll-target-id="contact"
+            >
+              Kontakt
+            </li>
+            <li class="menu__item">
+              <a class="menu__call js-call-event" href="tel:+48504000031"
+                ><span class="icon-phone"></span>504 000 031</a
+              >
+            </li>
+          </ul>
+          <div class="menu__indicator"></div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="hero" class="hero section">
+        <div class="container content content--hero">
+          <div class="column">
+            <img
+              class="hero__img"
+              src="assets/img/misio-lekarz.svg"
+              alt="Grafika przestawiająca maskotkę pluszowego misia-lekarza"
+            />
+          </div>
+          <div class="column">
+            <div class="hero__content">
+              <h1 class="hero__heading heading">
+                <span class="hero__heading--prefix">lek.med.</span><br />
+                Agnieszka Wodzyńska
+              </h1>
+              <p class="hero__text text">
+                Prowadzę prywatną praktykę lekarską z&nbsp;zakresu pediatrii
+                oraz&nbsp;medycyny rodzinnej. <br />
+                Zapraszam do mojego gabinetu w&nbsp;Grodzisku&nbsp;Mazowieckim.
+              </p>
+              <div class="hero__buttons">
+                <button
+                  class="button button--cta js-cta-click-event"
+                  data-scroll-target-id="contact"
+                  tabindex="0"
+                >
+                  Umów wizytę
+                </button>
+                <button
+                  class="button button--opening-hours"
+                  data-scroll-target-id="office"
+                  tabindex="0"
+                >
+                  <span class="button__icon">
+                    <span class="icon-time"></span>
+                  </span>
+                  Godziny przyjęć
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="specializations" class="specializations section">
+        <div class="container">
+          <h2 class="heading heading--2">Czym się zajmuję?</h2>
+          <div class="content">
+            <div class="column column--specialization card">
+              <div class="specializations__icon icon">
+                <span class="icon-stetoscope"
+                  ><span class="path1"></span><span class="path2"></span
+                ></span>
+              </div>
+              <h3 class="heading heading--3">Medycyna rodzinna</h3>
+              <p class="text">
+                Udzielam porad z&nbsp;zakresu chorób wewnętrznych.
+                Zajmuję&nbsp;się leczeniem m.&nbsp;in. chorób infekcyjnych,
+                cukrzycy typu II&nbsp;oraz nadciśnienia tętniczego
+              </p>
+            </div>
+            <div class="column column--specialization card">
+              <div class="specializations__icon icon">
+                <span class="icon-teddy-bear"
+                  ><span class="path1"></span><span class="path2"></span
+                ></span>
+              </div>
+              <h3 class="heading heading--3">Pediatria</h3>
+              <p class="text">
+                Udzielam konsultacji dotyczących dzieci chorych, noworodków,
+                niemowląt oraz&nbsp;dzieci starszych. Przeprowadzam okresowe
+                bilanse zdrowia oraz&nbsp;udzielam porad profilaktycznych.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about section">
+        <div class="container">
+          <div class="about__content">
+            <div class="about__column bio">
+              <h2 class="heading heading--2">O mnie</h2>
+              <div class="bio__content">
+                <div class="bio__img card card--img">
+                  <img
+                    class="img"
+                    src="assets/img/lek-agnieszka-wodzynska-lazy.webp"
+                    data-src="assets/img/lek-agnieszka-wodzynska-700x700.webp"
+                    alt="lekarz Agnieszka Wodzyńska"
+                  />
+                </div>
+                <div class="bio__text">
+                  <p class="text">
+                    Jestem absolwentką Wydziału Lekarskiego Warszawskiej
+                    Akademii Medycznej, dyplom lekarza medycyny uzyskałam
+                    w&nbsp;roku&nbsp;1996.
+                  </p>
+                  <p class="text">
+                    Już podczas studiów medycznych moim pragnieniem było aby po
+                    ich zakończeniu pracować z&nbsp;dziećmi. Jako pierwszą
+                    specjalizację zrealizowałam pediatrię, jako drugą medycynę
+                    rodzinną. W&nbsp;ten sposób obecnie mogę zajmować się
+                    zarówno dziećmi jak i&nbsp;dorosłymi.
+                  </p>
+                  <p class="text">
+                    W 2010 otworzyłam w&nbsp;Grodzisku Mazowieckim własną
+                    przychodnię przy&nbsp;ulicy Jaśminowej 2. Równolegle pracuję
+                    także w&nbsp;ramach współpracy z&nbsp;POZ w&nbsp;Przychodni
+                    Medikon w&nbsp;Grodzisku Mazowieckim.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="about__column coop">
+              <h2 class="heading heading--2">Nasza współpraca</h2>
+              <p class="text">
+                W swojej pracy kieruję się przede wszystkim dobrem chorego.
+                Podczas naszych spotkań w&nbsp;gabinecie staram się
+                o&nbsp;stworzenie dobrej, pełnej wzajemnego zaufania atmosfery.
+                Oferuje pełne zaangażowanie w proces leczenia. Od Pacjenta oraz
+                Rodziców oczekuję tego samego, ponieważ wtedy efekty
+                terapeutyczne, a&nbsp;tym samym korzyści dla leczonej osoby są
+                największe.
+              </p>
+              <p class="text">
+                W terapii wybieram sprawdzone metody, potwierdzone naukowo.
+                Antybiotyków używam tylko w&nbsp;szczególnie uzasadnionych
+                przypadkach, często korzystam z&nbsp;preparatów roślinnych.
+                Uważam, że profilaktyka jest równie ważna jak leczenie chorób.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="office" class="office section">
+        <div class="container">
+          <div class="office__content content">
+            <div class="office__consultations">
+              <h2 class="heading heading--2 heading--consulations">Gabinet</h2>
+              <div class="consultations">
+                <div class="consultations__hours card card--hours">
+                  <h3 class="heading heading--3">Wizyty osobiste</h3>
+                  <ul class="hours__list">
+                    <li class="hours__item">
+                      <span class="hours__day">Pn:</span>
+                      17:00&nbsp;-&nbsp;20:00
+                    </li>
+                    <li class="hours__item">
+                      <span class="hours__day">Śr:</span>
+                      17:00&nbsp;-&nbsp;20:00
+                    </li>
+                    <li class="hours__item">
+                      <span class="hours__day">Pt:</span>
+                      17:00&nbsp;-&nbsp;20:00
+                    </li>
+                  </ul>
+                </div>
+                <div class="consultations__hours card card--visits">
+                  <h3 class="heading heading--3 heading--hours">
+                    Konsultacje telefoniczne
+                  </h3>
+                  <ul class="hours__list">
+                    <li class="hours__item">
+                      <span class="hours__day">Wt:</span> 8:00&nbsp;-&nbsp;9:30
+                    </li>
+                    <li class="hours__item">
+                      <span class="hours__day">Cz:</span> 8:00&nbsp;-&nbsp;9:30
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="office__img card card--img">
+              <img
+                class="img"
+                src="assets/img/gabinet-lazy.webp"
+                data-src="assets/img/gabinet-1080x1080.webp"
+                alt="Wejście do gabinetu"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="gallery" class="gallery section">
+        <div class="container">
+          <h2 class="heading heading--2">Galeria</h2>
+          <div class="gallery__grid">
+            <div class="gallery__item">
+              <img
+                class="gallery__img js-lightbox-trigger"
+                tabindex="0"
+                src="assets/img/gallery/gabinet-1-lazy.webp"
+                data-src="assets/img/gallery/gabinet-1-thumbnail.webp"
+                data-src-gallery="assets/img/gallery/gabinet-1-full.webp"
+                alt="Wnętrze gabinetu lekarskiego - kozetka"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__img js-lightbox-trigger"
+                tabindex="0"
+                src="assets/img/gallery/gabinet-2-lazy.webp"
+                data-src="assets/img/gallery/gabinet-2-thumbnail.webp"
+                data-src-gallery="assets/img/gallery/gabinet-2-full.webp"
+                alt="Wnętrze gabinetu lekarskiego - biurko"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__img js-lightbox-trigger"
+                tabindex="0"
+                src="assets/img/gallery/poczekalnia-1-lazy.webp"
+                data-src="assets/img/gallery/poczekalnia-1-thumbnail.webp"
+                data-src-gallery="assets/img/gallery/poczekalnia-1-full.webp"
+                alt="Poczekalnia - korytarz"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__img js-lightbox-trigger"
+                tabindex="0"
+                src="assets/img/gallery/poczekalnia-2-lazy.webp"
+                data-src="assets/img/gallery/poczekalnia-2-thumbnail.webp"
+                data-src-gallery="assets/img/gallery/poczekalnia-2-full.webp"
+                alt="Poczekalnia - sofa"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__img js-lightbox-trigger"
+                tabindex="0"
+                src="assets/img/gallery/poczekalnia-3-lazy.webp"
+                data-src="assets/img/gallery/poczekalnia-3-thumbnail.webp"
+                data-src-gallery="assets/img/gallery/poczekalnia-3-full.webp"
+                alt="Poczekalnia - kącik dziecięcy"
+              />
+            </div>
+            <div class="gallery__item">
+              <img
+                class="gallery__img js-lightbox-trigger"
+                tabindex="0"
+                src="assets/img/gallery/kacik-dzieciecy-1-lazy.webp"
+                data-src="assets/img/gallery/kacik-dzieciecy-1-thumbnail.webp"
+                data-src-gallery="assets/img/gallery/kacik-dzieciecy-1-full.webp"
+                alt="Kącik dziecięcy"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact section">
+        <div class="container">
+          <h2 class="heading heading--2">Kontakt</h2>
+          <div class="contact__content content">
+            <div class="contact__details doctor column column--doctor card">
+              <figure>
+                <img
+                  class="doctor__img"
+                  src="assets/img/lek-pediatra-rodzinny-agnieszka-wodzynska.webp"
+                  alt="lekarz medycyny Agnieszka Wodzyńska"
+                />
+                <figcaption>
+                  <h3 class="heading heading--3">
+                    <span class="doctor__heading-prefix">lek. med. </span
+                    >Agnieszka&nbsp;Wodzyńska
+                  </h3>
+                </figcaption>
+              </figure>
+              <div class="doctor__address text">
+                <p>Adres:</p>
+                <p>ul. Jaśminowa 2 <br />05-827 Grodzisk Mazowiecki</p>
+              </div>
+            </div>
+            <div class="contact__details call card card--highlighted">
+              <div class="call__icon icon">
+                <span class="icon-call"
+                  ><span class="path1"></span><span class="path2"></span
+                ></span>
+              </div>
+              <div>
+                <h3 class="call__heading heading heading--3 heading--call">
+                  Umów się na wizytę
+                </h3>
+                <a
+                  href="tel:+48504000031"
+                  class="call__button button js-call-event"
+                  ><div class="icon--small">
+                    <span class="icon-phone-2"></span>
+                  </div>
+                  504 000 031</a
+                >
+              </div>
+              <hr />
+              <div class="call__booking-hours">
+                <p class="booking-hours__title text">
+                  Umawianie wizyt odbywa się telefonicznie:
+                </p>
+                <ul class="booking-hours__list">
+                  <li>pn, śr, pt: 7.00-7.30, 14.00-17.00</li>
+                  <li>wt, cz: 7.00 - 9.30</li>
+                </ul>
+              </div>
+              <div class="call__info-bar">
+                <div>
+                  <span class="icon-information"></span>
+                </div>
+                <small class="call__info"
+                  >Zawsze można wysłać SMS z pytaniem o możliwość wizyty.</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="map" class="map">
+        <iframe
+          class="map"
+          src=""
+          data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3177.323051417581!2d20.64047439347634!3d52.11519617718094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471948e8475346f3%3A0x5da2ad414ca76c1c!2sISPL%20Choroby%20Dzieci%2C%20Agnieszka%20Wodzy%C5%84ska!5e0!3m2!1spl!2spl!4v1690377508322!5m2!1spl!2spl"
+          title="mapa Google"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container container--footer">
+        <div class="footer__content">
+          <nav class="footer__menu">
+            <button class="footer__button js-GPDR-modal-trigger" tabindex="0">
+              Klauzula informacyjna dla pacjentów
+            </button>
+            <button
+              class="footer__button js-privacy-policy-trigger"
+              tabindex="0"
+            >
+              Polityka prywatności
+            </button>
+          </nav>
+          <div class="footer__copyright">
+            <span>
+              <span class="js-current-year"></span>
+              <strong>ISPL&nbsp;Choroby&nbsp;Dzieci</strong
+              ><span class="footer__credits">
+                | projekt&nbsp;i&nbsp;wykonanie:
+                <a class="credits__link" href="mailto:mikos.marcin.m@gmail.com"
+                  >Marcin&nbsp;Mikos</a
+                > </span
+              >`
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="overlay overlay--menu hidden"></div>
+    <div id="modal-privacy-policy" class="modal overlay hidden">
+      <div class="modal__content card">
+        <div class="modal__close">
+          <span class="icon-close"></span>
+        </div>
+        <div class="doc">
+          <article>
+            <h3 style="text-align: center">Polityka Prywatności</h3>
+            <p>
+              Poniższa Polityka Prywatności określa
+              <strong
+                >zasady zapisywania i uzyskiwania dostępu do danych na
+                Urządzeniach Użytkowników</strong
+              >
+              korzystających z Serwisu do celów świadczenia usług drogą
+              elektroniczną przez Administratora oraz
+              <strong
+                >zasady gromadzenia i przetwarzania danych osobowych
+                Użytkowników</strong
+              >, które zostały podane przez nich osobiście i dobrowolnie za
+              pośrednictwem narzędzi dostępnych w Serwisie.
+            </p>
+            <h3 style="text-align: center">§1 Definicje</h3>
+            <ul>
+              <li>
+                <p>
+                  <strong>Serwis</strong> - serwis internetowy
+                  "lekarz-grodzisk.pl" działający pod adresem
+                  https://lekarz-grodzisk.pl
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Serwis zewnętrzny</strong> - serwisy internetowe
+                  partnerów, usługodawców lub usługobiorców współpracujących z
+                  Administratorem
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Administrator Serwisu / Danych</strong> -
+                  Administratorem Serwisu oraz Administratorem Danych (dalej
+                  Administrator) jest firma "Wodzyńska Agnieszka Choroby Dzieci
+                  - Indywidualna Specjalistyczna Praktyka Lekarska", prowadząca
+                  działalność pod adresem: Jaśminowa 2, 05-827 Grodzisk
+                  Mazowiecki, o nadanym numerze identyfikacji podatkowej (NIP):
+                  5272092444, świadcząca usługi drogą elektroniczną za
+                  pośrednictwem Serwisu
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Użytkownik</strong> - osoba fizyczna, dla której
+                  Administrator świadczy usługi drogą elektroniczną za
+                  pośrednictwem Serwisu.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Urządzenie</strong> - elektroniczne urządzenie wraz z
+                  oprogramowaniem, za pośrednictwem którego Użytkownik uzyskuje
+                  dostęp do Serwisu
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Cookies (ciasteczka)</strong> - dane tekstowe
+                  gromadzone w formie plików zamieszczanych na Urządzeniu
+                  Użytkownika
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>RODO</strong> - Rozporządzenie Parlamentu
+                  Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r.
+                  w sprawie ochrony osób fizycznych w związku z przetwarzaniem
+                  danych osobowych i w sprawie swobodnego przepływu takich
+                  danych oraz uchylenia dyrektywy 95/46/WE (ogólne
+                  rozporządzenie o ochronie danych)
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Dane osobowe</strong> - oznaczają informacje o
+                  zidentyfikowanej lub możliwej do zidentyfikowania osobie
+                  fizycznej („osobie, której dane dotyczą”); możliwa do
+                  zidentyfikowania osoba fizyczna to osoba, którą można
+                  bezpośrednio lub pośrednio zidentyfikować, w szczególności na
+                  podstawie identyfikatora takiego jak imię i nazwisko, numer
+                  identyfikacyjny, dane o lokalizacji, identyfikator internetowy
+                  lub jeden bądź kilka szczególnych czynników określających
+                  fizyczną, fizjologiczną, genetyczną, psychiczną, ekonomiczną,
+                  kulturową lub społeczną tożsamość osoby fizycznej
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Przetwarzanie</strong> - oznacza operację lub zestaw
+                  operacji wykonywanych na danych osobowych lub zestawach danych
+                  osobowych w sposób zautomatyzowany lub niezautomatyzowany,
+                  taką jak zbieranie, utrwalanie, organizowanie, porządkowanie,
+                  przechowywanie, adaptowanie lub modyfikowanie, pobieranie,
+                  przeglądanie, wykorzystywanie, ujawnianie poprzez przesłanie,
+                  rozpowszechnianie lub innego rodzaju udostępnianie,
+                  dopasowywanie lub łączenie, ograniczanie, usuwanie lub
+                  niszczenie;
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Ograniczenie przetwarzania</strong> - oznacza
+                  oznaczenie przechowywanych danych osobowych w celu
+                  ograniczenia ich przyszłego przetwarzania
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Profilowanie</strong> - oznacza dowolną formę
+                  zautomatyzowanego przetwarzania danych osobowych, które polega
+                  na wykorzystaniu danych osobowych do oceny niektórych
+                  czynników osobowych osoby fizycznej, w szczególności do
+                  analizy lub prognozy aspektów dotyczących efektów pracy tej
+                  osoby fizycznej, jej sytuacji ekonomicznej, zdrowia,
+                  osobistych preferencji, zainteresowań, wiarygodności,
+                  zachowania, lokalizacji lub przemieszczania się
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Zgoda</strong> - zgoda osoby, której dane dotyczą
+                  oznacza dobrowolne, konkretne, świadome i jednoznaczne
+                  okazanie woli, którym osoba, której dane dotyczą, w formie
+                  oświadczenia lub wyraźnego działania potwierdzającego,
+                  przyzwala na przetwarzanie dotyczących jej danych osobowych
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Naruszenie ochrony danych osobowych</strong> - oznacza
+                  naruszenie bezpieczeństwa prowadzące do przypadkowego lub
+                  niezgodnego z prawem zniszczenia, utracenia, zmodyfikowania,
+                  nieuprawnionego ujawnienia lub nieuprawnionego dostępu do
+                  danych osobowych przesyłanych, przechowywanych lub w inny
+                  sposób przetwarzanych
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Pseudonimizacja</strong> - oznacza przetworzenie
+                  danych osobowych w taki sposób, by nie można ich było już
+                  przypisać konkretnej osobie, której dane dotyczą, bez użycia
+                  dodatkowych informacji, pod warunkiem że takie dodatkowe
+                  informacje są przechowywane osobno i są objęte środkami
+                  technicznymi i organizacyjnymi uniemożliwiającymi ich
+                  przypisanie zidentyfikowanej lub możliwej do zidentyfikowania
+                  osobie fizycznej
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Anonimizacja</strong> - Anonimizacja danych to
+                  nieodwracalny proces operacji na danych, który niszczy /
+                  nadpisuje "dane osobowe" uniemożliwiając identyfikację, lub
+                  powiązanie danego rekordu z konkretnym użytkownikiem lub osobą
+                  fizyczną.
+                </p>
+              </li>
+            </ul>
+            <h3 style="text-align: center">§2 Inspektor Ochrony Danych</h3>
+            <p>
+              Na podstawie Art. 37 RODO, Administrator nie powołał Inspektora
+              Ochrony Danych.
+            </p>
+            <p>
+              W sprawach dotyczących przetwarzania danych, w tym danych
+              osobowych, należy kontaktować się bezpośrednio z Administratorem.
+            </p>
+            <h3 style="text-align: center">§3 Rodzaje Plików Cookies</h3>
+            <ul>
+              <li>
+                <p>
+                  <strong>Cookies wewnętrzne</strong> - pliki zamieszczane i
+                  odczytywane z Urządzenia Użytkownika przez system
+                  teleinformatyczny Serwisu
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Cookies zewnętrzne</strong> - pliki zamieszczane i
+                  odczytywane z Urządzenia Użytkownika przez systemy
+                  teleinformatyczne Serwisów zewnętrznych. Skrypty Serwisów
+                  zewnętrznych, które mogą umieszczać pliki Cookies na
+                  Urządzeniach Użytkownika zostały świadomie umieszczone w
+                  Serwisie poprzez skrypty i usługi udostępnione i zainstalowane
+                  w Serwisie
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Cookies sesyjne</strong> - pliki zamieszczane i
+                  odczytywane z Urządzenia Użytkownika przez Serwis
+                  <span id="sz1" style="display: none"
+                    >lub Serwisy zewnętrzne</span
+                  >
+                  podczas jednej sesji danego Urządzenia. Po zakończeniu sesji
+                  pliki są usuwane z Urządzenia Użytkownika.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Cookies trwałe</strong> - pliki zamieszczane i
+                  odczytywane z Urządzenia Użytkownika przez Serwis
+                  <span id="sz2" style="display: none"
+                    >lub Serwisy zewnętrzne</span
+                  >
+                  do momentu ich ręcznego usunięcia. Pliki nie są usuwane
+                  automatycznie po zakończeniu sesji Urządzenia chyba że
+                  konfiguracja Urządzenia Użytkownika jest ustawiona na tryb
+                  usuwanie plików Cookie po zakończeniu sesji Urządzenia.
+                </p>
+              </li>
+            </ul>
+            <h3 style="text-align: center">
+              §4 Bezpieczeństwo składowania danych
+            </h3>
+            <ul>
+              <li>
+                <p>
+                  <strong
+                    >Mechanizmy składowania i odczytu plików Cookie</strong
+                  >
+                  - Mechanizmy składowania, odczytu i wymiany danych pomiędzy
+                  Plikami Cookies zapisywanymi na Urządzeniu Użytkownika a
+                  Serwisem są realizowane poprzez wbudowane mechanizmy
+                  przeglądarek internetowych i nie pozwalają na pobieranie
+                  innych danych z Urządzenia Użytkownika lub danych innych
+                  witryn internetowych, które odwiedzał Użytkownik, w tym danych
+                  osobowych ani informacji poufnych. Przeniesienie na Urządzenie
+                  Użytkownika wirusów, koni trojańskich oraz innych robaków jest
+                  także praktycznie niemożliwe.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Cookie wewnętrzne</strong> - zastosowane przez
+                  Administratora pliki Cookie są bezpieczne dla Urządzeń
+                  Użytkowników i nie zawierają skryptów, treści lub informacji
+                  mogących zagrażać bezpieczeństwu danych osobowych lub
+                  bezpieczeństwu Urządzenia z którego korzysta Użytkownik.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Cookie zewnętrzne</strong> - Administrator dokonuje
+                  wszelkich możliwych działań w celu weryfikacji i doboru
+                  partnerów serwisu w kontekście bezpieczeństwa Użytkowników.
+                  Administrator do współpracy dobiera znanych, dużych partnerów
+                  o globalnym zaufaniu społecznym. Nie posiada on jednak pełnej
+                  kontroli nad zawartością plików Cookie pochodzących od
+                  zewnętrznych partnerów. Za bezpieczeństwo plików Cookie, ich
+                  zawartość oraz zgodne z licencją wykorzystanie przez
+                  zainstalowane w serwisie Skrypty, pochodzących z Serwisów
+                  zewnętrznych, Administrator nie ponosi odpowiedzialności na
+                  tyle na ile pozwala na to prawo. Lista partnerów zamieszczona
+                  jest w dalszej części Polityki Prywatności.
+                </p>
+              </li>
+              <li>
+                <p><strong>Kontrola plików Cookie</strong></p>
+                <ul>
+                  <li>
+                    <p>
+                      Użytkownik może w dowolnym momencie, samodzielnie zmienić
+                      ustawienia dotyczące zapisywania, usuwania oraz dostępu do
+                      danych zapisanych plików Cookies przez każdą witrynę
+                      internetową
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Informacje o sposobie wyłączenia plików Cookie w
+                      najpopularniejszych przeglądarkach komputerowych dostępne
+                      są na stronie:
+                      <a
+                        rel="external"
+                        href="https://nety.pl/jak-wylaczyc-pliki-cookie/"
+                        >jak wyłączyć cookie</a
+                      >
+                      lub u jednego ze wskazanych dostawców:
+                    </p>
+                    <ul>
+                      <li>
+                        <a
+                          rel="nofollow external"
+                          href="https://support.google.com/accounts/answer/61416?co=GENIE.Platform%3DDesktop&amp;hl=pl"
+                          >Zarządzanie plikami cookies w przeglądarce
+                          <strong>Chrome</strong></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          rel="nofollow external"
+                          href="https://help.opera.com/pl/latest/web-preferences/"
+                          >Zarządzanie plikami cookies w przeglądarce
+                          <strong>Opera</strong></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          rel="nofollow external"
+                          href="https://support.mozilla.org/pl/kb/blokowanie-ciasteczek"
+                          >Zarządzanie plikami cookies w przeglądarce
+                          <strong>FireFox</strong></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          rel="nofollow external"
+                          href="https://support.microsoft.com/pl-pl/help/4027947/microsoft-edge-delete-cookies"
+                          >Zarządzanie plikami cookies w przeglądarce
+                          <strong>Edge</strong></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          rel="nofollow external"
+                          href="https://support.apple.com/pl-pl/guide/safari/sfri11471/mac"
+                          >Zarządzanie plikami cookies w przeglądarce
+                          <strong>Safari</strong></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          rel="nofollow external"
+                          href="https://windows.microsoft.com/pl-pl/internet-explorer/delete-manage-cookies#ie=ie-11"
+                          >Zarządzanie plikami cookies w przeglądarce
+                          <strong>Internet Explorer 11</strong></a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p>
+                      Użytkownik może w dowolnym momencie usunąć wszelkie
+                      zapisane do tej pory pliki Cookie korzystając z narzędzi
+                      Urządzenia Użytkownika, za pośrednictwem którego
+                      Użytkownik korzysta z usług Serwisu.
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p>
+                  <strong>Zagrożenia po stronie Użytkownika</strong> -
+                  Administrator stosuje wszelkie możliwe środki techniczne w
+                  celu zapewnienia bezpieczeństwa danych umieszczanych w plikach
+                  Cookie. Należy jednak zwrócić uwagę, że zapewnienie
+                  bezpieczeństwa tych danych zależy od obu stron w tym
+                  działalności Użytkownika. Administrator nie bierze
+                  odpowiedzialności za przechwycenie tych danych, podszycie się
+                  pod sesję Użytkownika lub ich usunięcie, na skutek świadomej
+                  lub nieświadomej działalność Użytkownika, wirusów, koni
+                  trojańskich i innego oprogramowania szpiegującego, którymi
+                  może jest lub było zainfekowane Urządzenie Użytkownika.
+                  Użytkownicy w celu zabezpieczenia się przed tymi zagrożeniami
+                  powinni stosować się do
+                  <a rel="external" href="https://nety.pl/cyberbezpieczenstwo/"
+                    >zasad bezpiecznego korzystania z internetu</a
+                  >.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Przechowywanie danych osobowych</strong> -
+                  Administrator zapewnia, że dokonuje wszelkich starań, by
+                  przetwarzane dane osobowe wprowadzone dobrowolnie przez
+                  Użytkowników były bezpieczne, dostęp do nich był ograniczony i
+                  realizowany zgodnie z ich przeznaczeniem i celami
+                  przetwarzania. Administrator zapewnia także, że dokonuje
+                  wszelkich starań w celu zabezpieczenia posiadanych danych
+                  przed ich utratą, poprzez stosowanie odpowiednich zabezpieczeń
+                  fizycznych jak i organizacyjnych.
+                </p>
+              </li>
+            </ul>
+            <h3 style="text-align: center">
+              §5 Cele do których wykorzystywane są pliki Cookie
+            </h3>
+            <ul id="cele">
+              <li>Usprawnienie i ułatwienie dostępu do Serwisu</li>
+              <li>Personalizacja Serwisu dla Użytkowników</li>
+              <li>
+                Prowadzenie statystyk (użytkowników, ilości odwiedzin, rodzajów
+                urządzeń, łącze itp.)
+              </li>
+            </ul>
+            <h3 style="text-align: center">
+              §6 Cele przetwarzania danych osobowych
+            </h3>
+            <p>
+              Dane osobowe dobrowolnie podane przez Użytkowników są przetwarzane
+              w jednym z następujących celów:
+            </p>
+            <ul>
+              <li>Realizacji usług elektronicznych:</li>
+              <li>
+                Komunikacji Administratora z Użytkownikami w sprawach związanych
+                z Serwisem oraz ochrony danych
+              </li>
+              <li>Zapewnienia prawnie uzasadnionego interesu Administratora</li>
+            </ul>
+            <p>
+              Dane o Użytkownikach gromadzone anonimowo i automatycznie są
+              przetwarzane w jednym z następujących celów:
+            </p>
+            <ul>
+              <li>Prowadzenie statystyk</li>
+              <li>Zapewnienia prawnie uzasadnionego interesu Administratora</li>
+            </ul>
+            <h3 style="text-align: center">
+              §7 Pliki Cookies Serwisów zewnętrznych
+            </h3>
+            <p id="zewinfo">
+              Administrator w Serwisie wykorzystuje skrypty javascript i
+              komponenty webowe partnerów, którzy mogą umieszczać własne pliki
+              cookies na Urządzeniu Użytkownika. Pamiętaj, że w ustawieniach
+              swojej przeglądarki możesz sam decydować o dozwolonych plikach
+              cookies jakie mogą być używane przez poszczególne witryny
+              internetowe. Poniżej znajduje się lista partnerów lub ich usług
+              zaimplementowanych w Serwisie, mogących umieszczać pliki cookies:
+            </p>
+            <ul id="zewnetrzne">
+              <li>
+                <strong>Prowadzenie statystyk:</strong>
+                <ul>
+                  <li>
+                    <a
+                      rel="nofollow external"
+                      href="https://policies.google.com/privacy?hl=pl"
+                      >Google Analytics</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Usługi inne:</strong>
+                <ul>
+                  <li>
+                    <a
+                      rel="nofollow external"
+                      href="https://www.google.com/intl/en_be/help/terms_maps/"
+                      >Mapy Google</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p>
+              Usługi świadczone przez podmioty trzecie są poza kontrolą
+              Administratora. Podmioty te mogą w każdej chwili zmienić swoje
+              warunki świadczenia usług, polityki prywatności, cel przetwarzania
+              danych oraz sposów wykorzystywania plików cookie.
+            </p>
+            <h3 style="text-align: center">§8 Rodzaje gromadzonych danych</h3>
+            <p>
+              Serwis gromadzi dane o Użytkownikach. Cześć danych jest gromadzona
+              automatycznie i anonimowo, a część danych to dane osobowe podane
+              dobrowolnie przez Użytkowników w trakcie zapisywania się do
+              poszczególnych usług oferowanych przez Serwis.
+            </p>
+            <p><strong>Anonimowe dane gromadzone automatycznie:</strong></p>
+            <ul>
+              <li>Adres IP</li>
+              <li>Typ przeglądarki</li>
+              <li>Rozdzielczość ekranu</li>
+              <li>Przybliżona lokalizacja</li>
+              <li>Otwierane podstrony serwisu</li>
+              <li>Czas spędzony na odpowiedniej podstronie serwisu</li>
+              <li>Rodzaj systemu operacyjnego</li>
+              <li>Adres poprzedniej podstrony</li>
+              <li>Adres strony odsyłającej</li>
+              <li>Język przeglądarki</li>
+              <li>Prędkość łącza internetowego</li>
+              <li>Dostawca usług internetowych</li>
+            </ul>
+            <p>
+              Część danych (bez danych identyfikujących) może być przechowywana
+              w plikach cookies. Cześć danych (bez danych identyfikujących) może
+              być przekazywana do dostawcy usług statystycznych.
+            </p>
+            <h3 style="text-align: center">
+              §9 Dostęp do danych osobowych przez podmioty trzecie
+            </h3>
+            <p>
+              Co do zasady jedynym odbiorcą danych osobowych podawanych przez
+              Użytkowników jest Administrator. Dane gromadzone w ramach
+              świadczonych usług nie są przekazywane ani odsprzedawane podmiotom
+              trzecim.
+            </p>
+            <p>
+              Dostęp do danych (najczęściej na podstawie Umowy powierzenia
+              przetwarzania danych) mogą posiadać podmioty, odpowiedzialne za
+              utrzymania infrastruktury i usług niezbędnych do prowadzenia
+              serwisu tj.:
+            </p>
+            <ul>
+              <li>
+                Firmy hostingowe, świadczące usługi hostingu lub usług
+                pokrewnych dla Administratora
+              </li>
+            </ul>
+            <p>
+              <strong
+                >Powierzenie przetwarzania danych osobowych - Usługi Hostingu,
+                VPS lub Serwerów Dedykowanych</strong
+              >
+            </p>
+            <p>
+              Administrator w celu prowadzenia serwisu korzysta z usług
+              zewnętrznego dostawcy hostingu, VPS lub Serwerów Dedykowanych -
+              <strong>LH.pl Sp. z o.o.</strong>. Wszelkie dane gromadzone i
+              przetwarzane w serwisie są przechowywane i przetwarzane w
+              infrastrukturze usługodawcy zlokalizowanej w Polsce. Istnieje
+              możliwość dostępu do danych wskutek prac serwisowych realizowanych
+              przez personel usługodawcy. Dostęp do tych danych reguluje umowa
+              zawarta pomiędzy Administratorem a Usługodawcą.
+            </p>
+            <br />
+            <h3 style="text-align: center">
+              §10 Sposób przetwarzania danych osobowych
+            </h3>
+            <p>
+              <strong
+                >Dane osobowe podane dobrowolnie przez Użytkowników:</strong
+              >
+            </p>
+            <ul>
+              <li>
+                Dane osobowe nie będą przekazywane poza Unię Europejską, chyba
+                że zostały opublikowane na skutek indywidualnego działania
+                Użytkownika (np. wprowadzenie komentarza lub wpisu), co sprawi,
+                że dane będą dostępne dla każdej osoby odwiedzającej serwis.
+              </li>
+              <li>
+                Dane osobowe nie będą wykorzystywane do zautomatyzowanego
+                podejmowania decyzji (profilowania).
+              </li>
+              <li>Dane osobowe nie będą odsprzedawane podmiotom trzecim.</li>
+            </ul>
+            <p>
+              <strong
+                >Dane anonimowe (bez danych osobowych) gromadzone
+                automatycznie:</strong
+              >
+            </p>
+            <ul>
+              <li>
+                Dane anonimiwe (bez danych osobowych) będą przekazywane poza
+                Unię Europejską.
+              </li>
+              <li>
+                Dane anonimiwe (bez danych osobowych) nie będą wykorzystywane do
+                zautomatyzowanego podejmowania decyzji (profilowania).
+              </li>
+              <li>
+                Dane anonimiwe (bez danych osobowych) nie będą odsprzedawane
+                podmiotom trzecim.
+              </li>
+            </ul>
+            <h3 style="text-align: center">
+              §11 Podstawy prawne przetwarzania danych osobowych
+            </h3>
+            <p>Serwis gromadzi i przetwarza dane Użytkowników na podstawie:</p>
+            <ul>
+              <li>
+                Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z
+                dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w
+                związku z przetwarzaniem danych osobowych i w sprawie swobodnego
+                przepływu takich danych oraz uchylenia dyrektywy 95/46/WE
+                (ogólne rozporządzenie o ochronie danych)
+                <ul>
+                  <li>
+                    art. 6 ust. 1 lit. a<br />
+                    <small
+                      >osoba, której dane dotyczą wyraziła zgodę na
+                      przetwarzanie swoich danych osobowych w jednym lub
+                      większej liczbie określonych celów</small
+                    >
+                  </li>
+                  <li>
+                    art. 6 ust. 1 lit. b<br />
+                    <small
+                      >przetwarzanie jest niezbędne do wykonania umowy, której
+                      stroną jest osoba, której dane dotyczą, lub do podjęcia
+                      działań na żądanie osoby, której dane dotyczą, przed
+                      zawarciem umowy</small
+                    >
+                  </li>
+                  <li>
+                    art. 6 ust. 1 lit. f<br />
+                    <small
+                      >przetwarzanie jest niezbędne do celów wynikających z
+                      prawnie uzasadnionych interesów realizowanych przez
+                      administratora lub przez stronę trzecią</small
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Ustawa z dnia 10 maja 2018 r. o ochronie danych osobowych (Dz.U.
+                2018 poz. 1000)
+              </li>
+              <li>
+                Ustawa z dnia 16 lipca 2004 r. Prawo telekomunikacyjne (Dz.U.
+                2004 nr 171 poz. 1800)
+              </li>
+              <li>
+                Ustawa z dnia 4 lutego 1994 r. o prawie autorskim i prawach
+                pokrewnych (Dz. U. 1994 Nr 24 poz. 83)
+              </li>
+            </ul>
+            <h3 style="text-align: center">
+              §12 Okres przetwarzania danych osobowych
+            </h3>
+            <p>
+              <strong
+                >Dane osobowe podane dobrowolnie przez Użytkowników:</strong
+              >
+            </p>
+            <p>
+              Co do zasady wskazane dane osobowe są przechowywane wyłącznie
+              przez okres świadczenia Usługi w ramach Serwisu przez
+              Administratora. Są one usuwane lub anonimizowane w okresie do 30
+              dni od chwili zakończenia świadczenia usług (np. usunięcie
+              zarejestrowanego konta użytkownika, wypisanie z listy Newsletter,
+              itp.)
+            </p>
+            <p>
+              Wyjątek stanowi sytuacja, która wymaga zabezpieczenia prawnie
+              uzasadnionych celów dalszego przetwarzania tych danych przez
+              Administratora. W takiej sytuacji Administrator będzie
+              przechowywał wskazane dane, od czasu żądania ich usunięcia przez
+              Użytkownika, nie dłużej niż przez okres 3 lat w przypadku
+              naruszenia lub podejrzenia naruszenia zapisów regulaminu serwisu
+              przez Użytkownika
+            </p>
+            <p>
+              <strong
+                >Dane anonimowe (bez danych osobowych) gromadzone
+                automatycznie:</strong
+              >
+            </p>
+            <p>
+              Anonimowe dane statystyczne, niestanowiące danych osobowych, są
+              przechowywane przez Administratora w celu prowadzenia statystyk
+              serwisu przez czas nieoznaczony
+            </p>
+            <h3 style="text-align: center">
+              §13 Prawa Użytkowników związane z przetwarzaniem danych osobowych
+            </h3>
+            <p>Serwis gromadzi i przetwarza dane Użytkowników na podstawie:</p>
+            <ul>
+              <li>
+                <p>
+                  <strong>Prawo dostępu do danych osobowych</strong><br />
+                  Użytkownikom przysługuje prawo uzyskania dostępu do swoich
+                  danych osobowych, realizowane na żądanie złożone do
+                  Administratora
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Prawo do sprostowania danych osobowych</strong><br />
+                  Użytkownikom przysługuje prawo żądania od Administratora
+                  niezwłocznego sprostowania danych osobowych, które są
+                  nieprawidłowe lub / oraz uzupełnienia niekompletnych danych
+                  osobowych, realizowane na żądanie złożone do Administratora
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Prawo do usunięcia danych osobowych</strong><br />
+                  Użytkownikom przysługuje prawo żądania od Administratora
+                  niezwłocznego usunięcia danych osobowych, realizowane na
+                  żądanie złożone do AdministratoraW przypadku kont
+                  użytkowników, usunięcie danych polega na anonimizacji danych
+                  umożliwiających identyfikację Użytkownika. Administrator
+                  zastrzega sobie prawo wstrzymania realizacji żądania usunięcia
+                  danych w celu ochrony prawnie uzasadnionego interesu
+                  Administratora (np. w gdy Użytkownik dopuścił się naruszenia
+                  Regulaminu czy dane zostały pozyskane wskutek prowadzonej
+                  korespondencji).<br />
+                  W przypadku usługi Newsletter, Użytkownik ma możliwość
+                  samodzielnego usunięcia swoich danych osobowych korzystając z
+                  odnośnika umieszczonego w każdej przesyłanej wiadomości
+                  e-mail.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong
+                    >Prawo do ograniczenia przetwarzania danych
+                    osobowych</strong
+                  ><br />
+                  Użytkownikom przysługuje prawo ograniczenia przetwarzania
+                  danych osobowych w przypadkach wskazanych w art. 18 RODO,
+                  m.in. kwestionowania prawidłowość danych osobowych,
+                  realizowane na żądanie złożone do Administratora
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Prawo do przenoszenia danych osobowych</strong><br />
+                  Użytkownikom przysługuje prawo uzyskania od Administratora,
+                  danych osobowych dotyczących Użytkownika w ustrukturyzowanym,
+                  powszechnie używanym formacie nadającym się do odczytu
+                  maszynowego, realizowane na żądanie złożone do Administratora
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong
+                    >Prawo wniesienia sprzeciwu wobec przetwarzania danych
+                    osobowych</strong
+                  ><br />
+                  Użytkownikom przysługuje prawo wniesienia sprzeciwu wobec
+                  przetwarzania jego danych osobowych w przypadkach określonych
+                  w art. 21 RODO, realizowane na żądanie złożone do
+                  Administratora
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Prawo wniesienia skargi</strong><br />
+                  Użytkownikom przysługuje prawo wniesienia skargi do organu
+                  nadzorczego zajmującego się ochroną danych osobowych.
+                </p>
+              </li>
+            </ul>
+            <h3 style="text-align: center">§14 Kontakt do Administratora</h3>
+            <p>
+              Z Administratorem można skontaktować się w jeden z poniższych
+              sposobów
+            </p>
+            <ul>
+              <li>
+                <p>
+                  <strong>Adres pocztowy</strong> - Wodzyńska Agnieszka Choroby
+                  Dzieci - Indywidualna Specjalistyczna Praktyka Lekarska,
+                  Jaśminowa 2, 05-827 Grodzisk Mazowiecki
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Adres poczty elektronicznej</strong> -
+                  kontakt@lekarz-grodzisk.pl
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Formularz kontaktowy</strong> - dostępny pod adresem:
+                  /kontakt
+                </p>
+              </li>
+            </ul>
+            <h3 style="text-align: center">§15 Wymagania Serwisu</h3>
+            <ul>
+              <li>
+                <p>
+                  Ograniczenie zapisu i dostępu do plików Cookie na Urządzeniu
+                  Użytkownika może spowodować nieprawidłowe działanie niektórych
+                  funkcji Serwisu.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Administrator nie ponosi żadnej odpowiedzialności za
+                  nieprawidłowo działające funkcje Serwisu w przypadku gdy
+                  Użytkownik ograniczy w jakikolwiek sposób możliwość
+                  zapisywania i odczytu plików Cookie.
+                </p>
+              </li>
+            </ul>
+            <h3 style="text-align: center">§16 Linki zewnętrzne</h3>
+            <p>
+              W Serwisie - artykułach, postach, wpisach czy komentarzach
+              Użytkowników mogą znajdować się odnośniki do witryn zewnętrznych,
+              z którymi Właściciel serwisu nie współpracuje. Linki te oraz
+              strony lub pliki pod nimi wskazane mogą być niebezpieczne dla
+              Twojego Urządzenia lub stanowić zagrożenie bezpieczeństwa Twoich
+              danych. Administrator nie ponosi odpowiedzialności za zawartość
+              znajdującą się poza Serwisem.
+            </p>
+            <h3 style="text-align: center">
+              §17 Zmiany w Polityce Prywatności
+            </h3>
+            <ul>
+              <li>
+                <p>
+                  Administrator zastrzega sobie prawo do dowolnej zmiany
+                  niniejszej Polityki Prywatności bez konieczności informowania
+                  o tym Użytkowników w zakresie stosowania i wykorzystywania
+                  danych anonimowych lub stosowania plików Cookie.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Administrator zastrzega sobie prawo do dowolnej zmiany
+                  niniejszej Polityki Prywatności w zakresie przetwarzania
+                  Danych Osobowych, o czym poinformuje Użytkowników
+                  posiadających konta użytkownika lub zapisanych do usługi
+                  newsletter, za pośrednictwem poczty elektronicznej w terminie
+                  do 7 dni od zmiany zapisów. Dalsze korzystanie z usług oznacza
+                  zapoznanie się i akceptację wprowadzonych zmian Polityki
+                  Prywatności. W przypadku w którym Użytkownik nie będzie się
+                  zgadzał z wprowadzonymi zmianami, ma obowiązek usunąć swoje
+                  konto z Serwisu lub wypisać się z usługi Newsletter.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Wprowadzone zmiany w Polityce Prywatności będą publikowane na
+                  tej podstronie Serwisu.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Wprowadzone zmiany wchodzą w życie z chwilą ich publikacji.
+                </p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div id="modal-cookie-consent" class="modal overlay hidden">
+      <div class="modal__content">
+        <div id="cookie-consent__trigger" class="hidden"></div>
+        <div class="cookie-consent__root"></div>
+      </div>
+    </div>
+    <div id="modal-GPDR" class="modal overlay hidden">
+      <div class="modal__content card">
+        <div class="modal__close"><span class="icon-close"></span></div>
+        <div class="doc">
+          <h3>Klauzula informacyjna dla pacjentów (RODO)</h3>
+          <h4>Nazwa i dane kontaktowe administratora danych</h4>
+          <p>
+            Agnieszka Wodzyńska, 05-827 Grodzisk Mazowiecki, ul. Jaśminowa 2,
+            tel.504000031, aga.wodzynska@gmail.com
+          </p>
+          <h4>Cele i podstawa prawna przetwarzania</h4>
+          <p>
+            Dane przetwarzane są w celu udzielania usług zdrowotnych oraz
+            udzielania informacji organom uprawionym, w związku ze świadczonymi
+            usługami art.9 ust.2 lit h RODO.
+          </p>
+          <h4>Odbiorcy danych</h4>
+          <p>
+            Podmioty wspólpracujące w udzielaniu świadczeń zdrowotnych :
+            przychodnie specjalistyczne, pracownie diagnystyki medycznej, Stacja
+            sanitarno- epidemiologiczna, ZUS, NFZ.
+          </p>
+          <h4>Okres przechwywania danych</h4>
+          <ul>
+            <li>
+              20 lat licząc od końca roku kalendarzowego, w którym dokonano
+              ostatniego wpisu w dokumentacji pacjenta
+            </li>
+            <li>
+              30 lat licząc od końca roku kalendarzowego, w którym dokonano
+              ostatniego wpisu w dokumentacji pacjenta w przypadku zgonu
+              pacjenta na skutek urazu lub zatrucia
+            </li>
+            <li>
+              22 lat licząc od końca roku kalendarzowego w którym dokonano
+              ostatniego wpisu w dokumentacji pacjenta w przypadku dzieci do
+              ukończenia 2 roku życia
+            </li>
+          </ul>
+          <ol>
+            <li>
+              Pacjent ma prawo do dostępu, sprostowania, ograniczenia,
+              sprzeciwu, przenoszenia danych.
+            </li>
+            <li>
+              Pacjent ma prawo do wniesienia skargi do Urzędu Ochrony Danych
+              Osobowych (UODO).
+            </li>
+            <li>Podanie danych osobowych lekarzowi jest wymogiem ustawowym.</li>
+            <li>
+              Pacjent lub jego opiekun ustawowy ma obowiazek podania danych
+              osobowych lekarzowi. W przeciwnym razie lekarz może odmówić.
+              świadczenia usług medycznych, poza sytuacją
+            </li>
+          </ol>
+
+          <h4>Podstawa prawna</h4>
+          <ol>
+            <li>
+              Rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z
+              dnia 27.04.2016 w sprawie ochrony osób fozycznych w związku z
+              przetwarzaniem danych osobowych i w sprawie swobodnego przepływu
+              takich danych oraz uchylenia dyrektywy 95/46/WE
+              (Dz.U.UE.L.2016.11.9.1 z 4 maja 2016)
+            </li>
+            <li>
+              Paragraf 86 rozporzadzenia ministra zdrowia z 9.11.2015 w sprawie
+              rodzajów, zakresu i wzorów dokumentacji medycznej oraz sposobu jej
+              przetwarzania (Dz.U.poz.2069)
+            </li>
+            <li>
+              Pkt 6.3 projektu z 13.03.2018 kodeksu postepowania dla podmiotów
+              wykonujących działalność leczniczą (https://www.rodowzdrowiu.pl/),
+              projektu ustawy o ochronie danych osobowych (druk nr 2410 Sejmu RP
+              VIII kadencji)
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div id="modal-lightbox" class="modal overlay hidden">
+      <div class="modal__content">
+        <div class="modal__close modal__close--lightbox">
+          <span class="icon-close"></span>
+        </div>
+        <div class="lightbox__root js-lightbox-root"></div>
+      </div>
+    </div>
+    <link rel="stylesheet" href="style.min.css" />
+  </body>
+</html>
